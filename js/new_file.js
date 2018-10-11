@@ -16,35 +16,6 @@ window.onload = function(){
 		}
 	}
 
-//吸顶菜单
-//		if(scrollTop > 670){
-//			if(isMoving){
-//				return 0;
-//			}
-//			isMoving = true;
-//			timer = setInterval(function(){
-//				if(banner3p.style.top == 0){
-//					clearInterval(timer);
-//					isMoving=false;
-//				}else{
-//					banner3p.style.top= banner3p.offsetTop +5+ "px";
-//				}
-//			},30); 
-//		}else{
-//			if(isMoving){
-//				return 0;
-//			}
-//			isMoving = true;
-//			
-//			timer = setInterval(function(){
-//				if(banner3p.style.top == -55){
-//					clearInterval(timer);
-//					isMoving = false;
-//				}else{
-//					banner3p.style.top = banner3p.offsetTop - 5+ "px"; 
-//				}
-//			},30);
-//		}
 		
 // 置顶按钮
             if(scrollTop >= 670){
@@ -90,7 +61,7 @@ window.onload = function(){
 	}
 	
 
-}
+
 
 
 
