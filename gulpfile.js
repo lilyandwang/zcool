@@ -71,7 +71,7 @@ gulp.task("sass", () =>{
 // 编译 ? es6 => es5;
 
 gulp.task("es6",()=>{
-    return gulp.src("script/es2015/es6.js")
+    return gulp.src("es2015/es6.js")
     .pipe(babel({
         presets: ['@babel/env']
     }))
