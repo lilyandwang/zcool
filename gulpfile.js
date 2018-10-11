@@ -37,7 +37,9 @@ gulp.task('connect', function() {
 gulp.task("html", ()=>{
     return gulp.src("*.html").pipe(gulp.dest("dist/")).pipe(connect.reload());;
 })
-
+gulp.task("img", ()=>{
+    return gulp.src("img/*").pipe(gulp.dest("dist/img")).pipe(connect.reload());;
+})
 gulp.task("watch", ()=>{
     gulp.watch("index.html",["html","sass"]);
     gulp.watch("sass/*.scss",["html","sass"]);
